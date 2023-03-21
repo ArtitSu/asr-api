@@ -35,6 +35,7 @@ pip install fastapi uvicorn pydantic
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install transformers
 pip install https://github.com/kpu/kenlm/archive/master.zip pyctcdecode
+apt-get install httpie
 ```
 
 ## Test the setup
