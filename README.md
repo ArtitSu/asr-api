@@ -4,7 +4,7 @@ Deploy a pre-trained Wav2vec2 model for ASR as a REST API using FastAPI
 
 ## Demo
 
-The model is trained to trascribe speech into text  on a thai common voice (8th version) dataset. Here's a sample request to the API:
+The model is trained to trascribe speech into text on a thai common voice (8th version) dataset. Here's a sample request to the API:
 
 ```bash
 http POST http://127.0.0.1:8000/predict audio_path="<path to audio>"
@@ -51,5 +51,3 @@ Send a test request:
 ```sh
 bin/test_request
 ```
-
-## License
