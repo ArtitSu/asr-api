@@ -1,6 +1,6 @@
-# Deploy BERT for Sentiment Analsysi with FastAPI
+# Deploy Wav2vec2 for ASR with FastAPI
 
-Deploy a pre-trained BERT model for Sentiment Analysis as a REST API using FastAPI
+Deploy a pre-trained Wav2vec2 model for ASR as a REST API using FastAPI
 
 ## Demo
 
