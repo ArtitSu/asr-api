@@ -25,7 +25,7 @@ You can also [read the complete tutorial here](https://www.curiousily.com/posts/
 Clone this repo:
 
 ```sh
-git clone <github>
+git clone https://github.com/ArtitSu/asr-api
 ```
 
 Install the dependencies:
