@@ -17,7 +17,8 @@ torch = "*"
 transformers = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "*"
 
 [pipenv]
 allow_prereleases = true
+install_search_all_sources = true

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-http POST http://localhost:8000/predict text="This app is a total waste of time!"
+http POST http://localhost:8000/predict audio_path="/Users/artitsu/Desktop/ASR/PROJECT/thai_dialect/example_wav/khummuang/HRJg1uq26QTQX3tiNdlIXA9w5lKveeLp_1640451975220.wav"
