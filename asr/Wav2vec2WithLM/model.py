@@ -12,7 +12,7 @@ class Model:
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         # your LM path
-        your_lm = "asr/lm.arpa"
+        your_lm = "asr/Wav2vec2WithLM/lm.arpa"
 
         # get the tokenizer
         processor = AutoProcessor.from_pretrained("wannaphong/wav2vec2-large-xlsr-53-th-cv8-newmm")
