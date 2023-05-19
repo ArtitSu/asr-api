@@ -19,12 +19,16 @@ class Model:
         vocab_dict = processor.tokenizer.get_vocab()
         sorted_vocab_dict = {k.lower(): v for k, v in sorted(vocab_dict.items(), key=lambda item: item[1])}
 
-        # build the decoder with your LM
+        # build the decoder with your LM, you can configure your LM weight by passing alpha and beta.
+        # alpha: weight for language model during shallow fusion
+        # beta: weight for length score adjustment of during scoring
         decoder = build_ctcdecoder(
             labels=list(sorted_vocab_dict.keys()),
             kenlm_model_path=your_lm,
+            alpha=0.5,
+            beta=1.5
         )
-
+        
         self.processor_with_lm = Wav2Vec2ProcessorWithLM(
             feature_extractor=processor.feature_extractor,
             tokenizer=processor.tokenizer,
