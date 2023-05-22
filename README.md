@@ -4,6 +4,8 @@ Deploy a pre-trained Wav2vec2 model for ASR as a REST API using FastAPI
 
 ## Demo
 
+Demo code: https://colab.research.google.com/drive/1fnvOS3RiIdnbjBwcZeGQ5xZQjG4zkqif#scrollTo=XnLUGiNSjXSd
+
 The model is trained to trascribe speech into text on a thai common voice (8th version) dataset. Here's a sample request to the API:
 
 ```bash
